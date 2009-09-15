@@ -1,6 +1,6 @@
 Name:           python-spf
 Version:        2.0.3
-Release:        %mkrel 2
+Release:        %mkrel 3
 Epoch:		0
 Summary:        Python module and programs for SPF (Sender Policy Framework)
 Group:          Development/Python
