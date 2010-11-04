@@ -9,7 +9,7 @@ URL:            http://sourceforge.net/forum/forum.php?forum_id=596908
 Source0:        pyspf-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
-%py_requires -d
+BuildRequires:	python
 Requires:       python-pydns
 Provides:	python-pyspf = %{epoch}:%{version}-%{release}
 Provides:	pyspf = %{epoch}:%{version}-%{release}
@@ -42,6 +42,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %doc CHANGELOG PKG-INFO README test
 %{python_sitelib}/*
-/usr/bin/type99
-/usr/bin/pyspfquery
+%{_bindir}/*
 
