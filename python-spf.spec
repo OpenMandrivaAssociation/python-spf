@@ -5,7 +5,7 @@ Epoch:		0
 Summary:        Python module and programs for SPF (Sender Policy Framework)
 Group:          Development/Python
 License:        Python Software Foundation License
-URL:            http://sourceforge.net/forum/forum.php?forum_id=596908
+URL:            https://sourceforge.net/forum/forum.php?forum_id=596908
 Source0:        pyspf-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:      noarch
